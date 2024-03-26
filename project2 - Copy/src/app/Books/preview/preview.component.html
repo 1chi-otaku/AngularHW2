@@ -1,0 +1,10 @@
+
+
+<div *ngIf="selectedBook" class="preview-container">
+    <h3>{{ selectedBook.title }}</h3>
+    <p>Author: {{ selectedBook.author }}</p>
+    <p>Price: {{ selectedBook.price }}</p>
+    <p>Page Count: {{ selectedBook.pageCount }}</p>
+    <img *ngIf="selectedBook.imageUrl" [src]="selectedBook.imageUrl" alt="Book Cover" class="book-image">
+  </div>
+  

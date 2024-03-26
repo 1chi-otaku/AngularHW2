@@ -1,0 +1,8 @@
+<div class="book-list-container">
+    <ul class="book-list">
+      <li class="book-item" *ngFor="let book of books" (click)="onSelect(book)">
+        {{ book.title }} by {{ book.author }}
+      </li>
+    </ul>
+    <app-preview [selectedBook]="selectedBook"></app-preview>
+  </div>

@@ -1,0 +1,43 @@
+/* book-list.component.css */
+
+/* Убираем стандартное оформление списка */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Стили для элементов списка */
+  .book-item {
+    background-color: #f8f9fa; /* Цвет фона элемента списка */
+    border-radius: 5px; /* Закругленные углы */
+    margin-bottom: 10px; /* Отступ между элементами */
+    padding: 10px; /* Внутренние отступы */
+    cursor: pointer; /* При наведении курсора мыши меняется на указатель */
+    transition: background-color 0.3s ease; /* Плавное изменение цвета фона */
+  }
+  
+  /* Стили для заголовка книги */
+  .book-title {
+    font-size: 18px;
+    font-weight: bold; /* Жирный текст */
+    margin-bottom: 5px; /* Отступ снизу */
+  }
+  
+  /* Стили для автора книги */
+  .book-author {
+    font-style: italic;
+    color: #6c757d; /* Цвет текста */
+  }
+  
+  /* Стили для цены и количества страниц */
+  .book-details {
+    font-size: 14px;
+    color: #6c757d;
+  }
+  
+  /* Стили для изменения фона элемента при наведении */
+  .book-item:hover {
+    background-color: #e9ecef; /* Цвет фона при наведении */
+  }
+  

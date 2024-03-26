@@ -1,0 +1,22 @@
+.preview-container {
+    border: 1px solid #ddd; /* Рамка вокруг предпросмотра */
+    border-radius: 5px; /* Закругление углов */
+    padding: 20px; /* Внутренние отступы */
+    background-color: #f9f9f9; /* Цвет фона */
+  }
+  
+  .preview-container h3 {
+    margin-top: 0; /* Убираем верхний отступ для заголовка */
+  }
+  
+  .preview-container p {
+    margin: 5px 0; /* Внешние отступы для абзацев */
+  }
+  
+  .preview-container img {
+    display: block; /* Делаем изображение блочным элементом */
+    max-width: 100%; /* Максимальная ширина изображения 100% от родительского контейнера */
+    height: auto; /* Автоматическая высота для сохранения соотношения сторон */
+    margin-top: 10px; /* Внешний отступ сверху */
+    border-radius: 5px; /* Закругление углов */
+  }

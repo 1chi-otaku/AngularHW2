@@ -1,0 +1,6 @@
+<h2 *ngIf="isOn">Hello</h2>
+
+<button *ngIf="!isOn" (click)="toggleButton()">+</button>
+<button *ngIf="isOn" (click)="toggleButton()">-</button>
+
+

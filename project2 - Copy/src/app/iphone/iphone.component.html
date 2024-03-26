@@ -1,0 +1,28 @@
+
+<img *ngIf="selectedImage === 'all'" src="assets/iphone/all.jpg" alt="all">
+<img *ngIf="selectedImage === 'pink'" src="assets/iphone/pink.jpg" alt="Pink">
+<img *ngIf="selectedImage === 'yellow'" src="assets/iphone/yellow.jpg" alt="Yellow">
+<img *ngIf="selectedImage === 'green'" src="assets/iphone/green.jpg" alt="Green">
+<img *ngIf="selectedImage === 'gray'" src="assets/iphone/white.jpg" alt="Gray">
+<img *ngIf="selectedImage === 'black'" src="assets/iphone/black.jpg" alt="Black">
+
+
+<div class="button-container">
+    <input type="radio" id="button1" name="buttons" class="radio-button" value="all" [(ngModel)]="selectedImage">
+    <label for="button1" class="button gradient"></label>
+  
+    <input type="radio" id="button2" name="buttons" class="radio-button" value="pink" [(ngModel)]="selectedImage">
+    <label for="button2" class="button pink"></label>
+  
+    <input type="radio" id="button3" name="buttons" class="radio-button" value="yellow" [(ngModel)]="selectedImage">
+    <label for="button3" class="button yellow"></label>
+  
+    <input type="radio" id="button4" name="buttons" class="radio-button" value="green" [(ngModel)]="selectedImage">
+    <label for="button4" class="button green"></label>
+  
+    <input type="radio" id="button5" name="buttons" class="radio-button" value="gray" [(ngModel)]="selectedImage">
+    <label for="button5" class="button gray"></label>
+  
+    <input type="radio" id="button6" name="buttons" class="radio-button" value="black" [(ngModel)]="selectedImage">
+    <label for="button6" class="button black"></label>
+</div>
